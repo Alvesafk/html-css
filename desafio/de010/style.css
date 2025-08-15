@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-image: linear-gradient(to top, #134128, #35c275);
+    margin: 0px;
+    padding: 5px;
+}
+header > h1 {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+    text-align: center;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+    text-align: center;
+}
+nav {
+    background-color: #174F31;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+}
+nav > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: justify;
+}
+nav > a:hover {
+    background-color: #35c275;
+}
+body {
+    background-color: #84E1AD;
+}
+main {
+    background-color: white;
+    padding: 5px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+main > h2 {
+    font-family: idroid, sans-serif;
+    color: #134128;
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+main > h3 {
+    font-family: idroid, sans-serif;
+    color: #134128;
+    background-image: linear-gradient(to right, #84e1ac6c, white);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
+}
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-indent: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.164);
+}
+main > div#video {
+    background-color: #1A5C38;
+    margin: auto;
+    padding: 15px;
+}
+main > div {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+div > p {
+    text-indent: 24px;
+    text-align: justify;
+}
+div#extra {
+    color: white;
+    background-color: #1A5C38;
+    margin: 0;
+    font-weight: 300;
+}
+footer {
+    background-color: #134128;
+    padding: 6px;
+}
+footer > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
